@@ -1,0 +1,12 @@
+store=auto&parent=write&abort=1&code=static n=17: ok=17 err=null}
+store=auto&parent=write&abort=1&code=static n=18: error code: 1101
+store=auto&parent=write&abort=1&code=static n=18: error code: 1101
+store=auto&abort=1 n=17: ok=17 err=null}
+store=auto&abort=1 n=18: ok=18 err=null}
+store=auto&abort=1 n=18: ok=18 err=null}
+store=auto&parent=write n=17: ok=17 err=null}
+store=auto&parent=write n=18: ok=18 err=null}
+store=auto&parent=write n=18: ok=18 err=null}
+store=sql&parent=write&abort=1 n=17: ok=17 err=null}
+store=sql&parent=write&abort=1 n=18: ok=18 err=null}
+store=sql&parent=write&abort=1 n=18: ok=18 err=null}

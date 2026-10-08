@@ -136,19 +136,21 @@ export class Lab extends DurableObject {
   }
 
   // Create many facets that each write one row and then get unloaded.
-  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, unload = true, write = true }) {
+  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, unload = true, write = true, reserve = true, record = true, wrap = true }) {
     count = Math.min(count, LIMITS.batch);
     if (this.facetCount() + count > LIMITS.facetsPerLab) throw new Error("facetsPerLab cap");
-    await this.reserve(["swarm"]);
+    if (reserve) await this.reserve(["swarm"]);
     const ms = [];
     const failures = [];
     const one = async (i) => {
       const name = `w${i}`;
       try {
-        const r = await this.call(this.facet(name, "swarm", {}), write ? `/write?bytes=${bytes}` : "/ping", timeoutMs);
+        const stub = this.facet(name, "swarm", {});
+        const path = write ? `/write?bytes=${bytes}` : "/ping";
+        const r = wrap ? await this.call(stub, path, timeoutMs) : await (async () => { const res = await stub.fetch("https://child" + path); return { ms: 0, status: res.status, body: await res.json() }; })();
         if (r.status !== 200) throw new Error(`status ${r.status}`);
         ms.push(r.ms);
-        this.record(name, r.body.boot, "swarm");
+        if (record) this.record(name, r.body.boot, "swarm");
         if (unload) this.ctx.facets.abort(name, new Error("swarm: unload"));
       } catch (e) { failures.push({ i, error: errText(e) }); }
     };

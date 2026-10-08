@@ -28,9 +28,16 @@ No AI calls. Raw data: `results/prod-*.json`, probe logs `results/probes-2026-10
 - Children that **do** write one small row each, in one parent request:
   17 works every time; **18 fails every time** with
   `Internal error in Durable Object storage caused object to be reset`.
-  Same at concurrency 1, 2, 5 and 10, and with or without unloading each child after its write.
+  Same at concurrency 1, 2, 5 and 10.
 - One writing child per request: the 18th and 28th failed (28/30 ok), so it isn't purely per request.
 - Batches of 10 into one parent: the first batch works, every later batch fails.
 
-Not yet known: whether this is a limit on facet databases opened per parent instance, or a bug.
-It is reproducible with `node run.mjs <url> <token> prod swarm` against this repo.
+**Narrowed down later (see [repro/](repro/README.md)).** It needs all four of these together.
+Remove any one and 18 (and 30) work:
+1. each child writes to a table with `INTEGER PRIMARY KEY AUTOINCREMENT`,
+2. the parent writes to its own SQLite after each child,
+3. the parent unloads each child with `ctx.facets.abort()`,
+4. more than 17 children in one parent.
+
+It happens with a class bundled in the Worker too, so Dynamic Workers aren't part of it.
+An earlier line here said "with or without unloading"; that was wrong. Without the unload it passes.

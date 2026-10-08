@@ -1,0 +1,6 @@
+store=auto&parent=write&abort=1 n=17: {"n":17,"code":"dynamic","store":"auto","parentWrites":true,"succeeded":17,"firstError":null}
+store=auto&parent=write&abort=1 n=18: {"supervisorReset":true,"error":"Internal error in Durable Object storage caused object to be reset; reference = igh8n8f30r55d5du0q6qtsil"}
+store=auto&parent=write&abort=1 n=30: {"supervisorReset":true,"error":"Internal error in Durable Object storage caused object to be reset; reference = ooffb2h3k1a4ocqhiatf8os7"}
+store=auto&parent=write&abort=1&code=static n=17: {"n":17,"code":"static","store":"auto","parentWrites":true,"succeeded":17,"firstError":null}
+store=auto&parent=write&abort=1&code=static n=18: {"supervisorReset":true,"error":"Internal error in Durable Object storage caused object to be reset; reference = 7paak0ujvlv65nfrhic4r9an"}
+store=auto&parent=write&abort=1&code=static n=30: {"supervisorReset":true,"error":"Internal error in Durable Object storage caused object to be reset; reference = siunmjiug9aj9klktahtntc7"}
