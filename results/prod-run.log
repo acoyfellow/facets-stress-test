@@ -1,0 +1,149 @@
+12:35:39 run 2026-10-08T12-35-39 target prod rounds hoard,swarm,churn,stampede,hostile,nest
+12:35:39 == round hoard
+12:35:47 hoard-shared-0mb 250 loaded 31 ms p50
+12:35:55 hoard-shared-0mb 500 loaded 32 ms p50
+12:36:04 hoard-shared-0mb 750 loaded 34 ms p50
+12:36:13 hoard-shared-0mb 1000 loaded 35 ms p50
+12:36:22 hoard-shared-0mb 1250 loaded 37 ms p50
+12:36:32 hoard-shared-0mb 1500 loaded 38 ms p50
+12:36:42 hoard-shared-0mb 1750 loaded 40 ms p50
+12:36:53 hoard-shared-0mb 2000 loaded 41 ms p50
+12:37:03 hoard-shared-0mb 2250 loaded 43 ms p50
+12:37:14 hoard-shared-0mb 2500 loaded 44 ms p50
+12:37:26 hoard-shared-0mb 2750 loaded 46 ms p50
+12:37:39 hoard-shared-0mb 3000 loaded 51 ms p50
+12:37:52 hoard-shared-0mb 3250 loaded 51 ms p50
+12:38:05 hoard-shared-0mb 3500 loaded 52 ms p50
+12:38:18 hoard-shared-0mb 3750 loaded 52 ms p50
+12:38:32 hoard-shared-0mb 4000 loaded 53 ms p50
+12:38:46 hoard-shared-0mb 4250 loaded 55 ms p50
+12:39:01 hoard-shared-0mb 4500 loaded 59 ms p50
+12:39:16 hoard-shared-0mb 4750 loaded 61 ms p50
+12:39:32 hoard-shared-0mb 5000 loaded 62 ms p50
+12:44:42 hoard-shared-0mb => reached cap without breaking | warm 0 restarted 5000
+12:44:42 hoard-shared-1mb 10 loaded 18 ms p50
+12:44:42 hoard-shared-1mb 20 loaded 18 ms p50
+12:44:43 hoard-shared-1mb 30 loaded 18 ms p50
+12:44:43 hoard-shared-1mb 40 loaded 18 ms p50
+12:44:43 hoard-shared-1mb 50 loaded 18 ms p50
+12:44:43 hoard-shared-1mb 60 loaded 19 ms p50
+12:44:44 hoard-shared-1mb 70 loaded 19 ms p50
+12:44:44 hoard-shared-1mb 80 loaded 19 ms p50
+12:44:44 hoard-shared-1mb 90 loaded 19 ms p50
+12:44:44 hoard-shared-1mb 100 loaded 19 ms p50
+12:44:45 hoard-shared-1mb 110 loaded 19 ms p50
+12:44:45 hoard-shared-1mb 120 loaded 19 ms p50
+12:44:45 hoard-shared-1mb 130 loaded 19 ms p50
+12:44:45 hoard-shared-1mb 140 loaded 19 ms p50
+12:44:46 hoard-shared-1mb 150 loaded 19 ms p50
+12:44:46 hoard-shared-1mb 160 loaded 19 ms p50
+12:44:46 hoard-shared-1mb 170 loaded 19 ms p50
+12:44:46 hoard-shared-1mb 180 loaded 19 ms p50
+12:44:47 hoard-shared-1mb 190 loaded 19 ms p50
+12:44:47 hoard-shared-1mb 200 loaded 20 ms p50
+12:44:47 hoard-shared-1mb 210 loaded 20 ms p50
+12:44:47 hoard-shared-1mb 220 loaded 20 ms p50
+12:44:47 hoard-shared-1mb 230 loaded 20 ms p50
+12:44:48 hoard-shared-1mb 240 loaded 20 ms p50
+12:44:48 hoard-shared-1mb 250 loaded 20 ms p50
+12:44:48 hoard-shared-1mb 260 loaded 20 ms p50
+12:44:48 hoard-shared-1mb 270 loaded 20 ms p50
+12:44:49 hoard-shared-1mb 280 loaded 20 ms p50
+12:44:49 hoard-shared-1mb 290 loaded 20 ms p50
+12:44:49 hoard-shared-1mb 300 loaded 20 ms p50
+12:44:49 hoard-shared-1mb 310 loaded 20 ms p50
+12:44:50 hoard-shared-1mb 320 loaded 20 ms p50
+12:44:50 hoard-shared-1mb 330 loaded 20 ms p50
+12:44:50 hoard-shared-1mb 340 loaded 20 ms p50
+12:44:50 hoard-shared-1mb 350 loaded 20 ms p50
+12:44:51 hoard-shared-1mb 360 loaded 20 ms p50
+12:44:51 hoard-shared-1mb 370 loaded 21 ms p50
+12:44:51 hoard-shared-1mb 380 loaded 21 ms p50
+12:44:51 hoard-shared-1mb 390 loaded 21 ms p50
+12:44:52 hoard-shared-1mb 400 loaded 22 ms p50
+12:44:59 hoard-shared-1mb => reached cap without breaking | warm 6 restarted 394
+12:45:00 hoard-unique-0mb 20 loaded 32 ms p50
+12:45:01 hoard-unique-0mb 40 loaded 32 ms p50
+12:45:02 hoard-unique-0mb 60 loaded 33 ms p50
+12:45:03 hoard-unique-0mb 80 loaded 33 ms p50
+12:45:03 hoard-unique-0mb 100 loaded 33 ms p50
+12:45:04 hoard-unique-0mb 120 loaded 33 ms p50
+12:45:05 hoard-unique-0mb 140 loaded 34 ms p50
+12:45:06 hoard-unique-0mb 160 loaded 33 ms p50
+12:45:06 hoard-unique-0mb 180 loaded 33 ms p50
+12:45:07 hoard-unique-0mb 200 loaded 33 ms p50
+12:45:08 hoard-unique-0mb 220 loaded 34 ms p50
+12:45:09 hoard-unique-0mb 240 loaded 34 ms p50
+12:45:09 hoard-unique-0mb 260 loaded 34 ms p50
+12:45:10 hoard-unique-0mb 280 loaded 35 ms p50
+12:45:11 hoard-unique-0mb 300 loaded 34 ms p50
+12:45:12 hoard-unique-0mb 320 loaded 34 ms p50
+12:45:12 hoard-unique-0mb 340 loaded 34 ms p50
+12:45:13 hoard-unique-0mb 360 loaded 35 ms p50
+12:45:14 hoard-unique-0mb 380 loaded 34 ms p50
+12:45:15 hoard-unique-0mb 400 loaded 35 ms p50
+12:45:29 hoard-unique-0mb => reached cap without breaking | warm 0 restarted 400
+12:45:30 hoard-unique-8mb 5 loaded 35 ms p50
+12:45:30 hoard-unique-8mb 10 loaded 38 ms p50
+12:45:30 hoard-unique-8mb 15 loaded 37 ms p50
+12:45:31 hoard-unique-8mb 20 loaded 37 ms p50
+12:45:31 hoard-unique-8mb 25 loaded 37 ms p50
+12:45:31 hoard-unique-8mb 30 loaded 37 ms p50
+12:45:31 hoard-unique-8mb 35 loaded 40 ms p50
+12:45:32 hoard-unique-8mb 40 loaded 40 ms p50
+12:45:32 hoard-unique-8mb 45 loaded 40 ms p50
+12:45:32 hoard-unique-8mb 50 loaded 42 ms p50
+12:45:32 hoard-unique-8mb 55 loaded 43 ms p50
+12:45:33 hoard-unique-8mb 60 loaded 53 ms p50
+12:45:33 hoard-unique-8mb 65 loaded 54 ms p50
+12:45:33 hoard-unique-8mb 70 loaded 53 ms p50
+12:45:34 hoard-unique-8mb 75 loaded 57 ms p50
+12:45:34 hoard-unique-8mb 80 loaded 46 ms p50
+12:45:34 hoard-unique-8mb 85 loaded 53 ms p50
+12:45:35 hoard-unique-8mb 90 loaded 43 ms p50
+12:45:35 hoard-unique-8mb 95 loaded 43 ms p50
+12:45:35 hoard-unique-8mb 100 loaded 44 ms p50
+12:45:35 hoard-unique-8mb 105 loaded 45 ms p50
+12:45:36 hoard-unique-8mb 110 loaded 43 ms p50
+12:45:36 hoard-unique-8mb 115 loaded 47 ms p50
+12:45:36 hoard-unique-8mb 120 loaded 45 ms p50
+12:45:37 hoard-unique-8mb 125 loaded 43 ms p50
+12:45:37 hoard-unique-8mb 130 loaded 45 ms p50
+12:45:37 hoard-unique-8mb 135 loaded 53 ms p50
+12:45:38 hoard-unique-8mb 140 loaded 115 ms p50
+12:45:38 hoard-unique-8mb 145 loaded 45 ms p50
+12:45:38 hoard-unique-8mb 150 loaded 43 ms p50
+12:45:39 hoard-unique-8mb 155 loaded 46 ms p50
+12:45:39 hoard-unique-8mb 160 loaded 46 ms p50
+12:45:39 hoard-unique-8mb 165 loaded 44 ms p50
+12:45:40 hoard-unique-8mb 170 loaded 46 ms p50
+12:45:40 hoard-unique-8mb 175 loaded 48 ms p50
+12:45:40 hoard-unique-8mb 180 loaded 46 ms p50
+12:45:40 hoard-unique-8mb 185 loaded 45 ms p50
+12:45:41 hoard-unique-8mb 190 loaded 47 ms p50
+12:45:41 hoard-unique-8mb 195 loaded 47 ms p50
+12:45:41 hoard-unique-8mb 200 loaded 54 ms p50
+12:45:50 hoard-unique-8mb => reached cap without breaking | warm 0 restarted 200
+12:45:50 == round swarm
+12:45:50 swarm => 30 child failures at ~30: Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5
+    at async withTimeout (index.js:110:12)
+    at async Lab.call (index.js:181:17)
+    at async one (index.js:250:19)
+    at async Promise.all (index 3)
+    at async Lab.swarm (index.js:262:7)
+12:45:50 == round churn
+12:45:51 churn shared { n: 200, p50: 1, p95: 2, max: 11 } unique { n: 30, p50: 11, p95: 13, max: 13 }
+12:45:51 == round stampede
+12:45:53 stampede shared-50: ok 50/50 wall 23 | shared-200: ok 200/200 wall 51 | shared-500: ok 500/500 wall 179 | unique-40: ok 10/40 wall 76
+12:45:53 == round hostile
+12:45:53 hostile throw parentSurvived=true canaryWarm=true 14ms {"error":"Error: boom from child\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.host
+12:45:55 hostile loop parentSurvived=true canaryWarm=true 13ms {"error":"Error: Worker exceeded CPU time limit.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    a
+12:45:55 hostile recurse parentSurvived=true canaryWarm=true 21ms {"error":"RangeError: Maximum call stack size exceeded\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\
+12:45:55 hostile fetch parentSurvived=true canaryWarm=true 23ms {"error":"Error: This worker is not permitted to access the internet via global functions like fetch(). It must use capabilities (such as bi
+12:46:15 hostile hang parentSurvived=true canaryWarm=false 20000ms {"error":"Error: timeout after 20000ms (/hostile?kind=hang)\n    at index.js:107:37"}
+12:46:16 hostile bigreturn parentSurvived=true canaryWarm=true 24ms {"status":200,"bodyPreview":"{\"text\":\"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+12:46:20 hostile storage parentSurvived=true canaryWarm=true 4113ms {"status":200,"bodyPreview":"{\"wroteMb\":256,\"size\":269131776}"}
+12:46:20 hostile alloc parentSurvived=true canaryWarm=true 16ms {"error":"Error: Worker exceeded memory limit.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at 
+12:46:20 == round nest
+12:46:20 nest {"depth-1":{"http":200,"wallMs":208,"ok":true,"ms":197,"result":{"requested":1,"result":{"depth":1,"inner":{"depth":0,"boot":"7ca99dfd-6c85-42c6-8b8b-da58268ccc2a","isolate":"7902e86b-e290-4104-b664-b8cdc1dc3927","calls":1,"heldMb":0,"padKb":0}},"parent":{"boot":"e36bdcf6-e2f8-439c-902a-ba2554ddf4ac","ageMs":59,"facetsRecorded":0,"dbBytes":16384}}},"depth-3":{"http":200,"wallMs":39,"ok":true,"ms":
+12:46:21 done -> results/prod-2026-10-08T12-35-39.json ledger {"uniqueWorkers":484,"cap":1500}

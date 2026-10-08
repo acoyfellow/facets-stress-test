@@ -1,0 +1,28 @@
+{
+  "target": "prod-swarm",
+  "base": "https://<host>",
+  "run": "2026-10-08T12-47-03",
+  "rounds": {
+    "swarm": {
+      "max": 10000,
+      "created": 0,
+      "verdict": "failed at 0: Error: Internal error in Durable Object storage caused object to be reset; reference = 2t87q63nk459aihd8fvtkb9n\n    at async Object.fetch (index.js:382:22)",
+      "steps": [
+        {
+          "total": 0,
+          "wallMs": 496,
+          "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 2t87q63nk459aihd8fvtkb9n\n    at async Object.fetch (index.js:382:22)"
+        }
+      ]
+    }
+  },
+  "wiped": {
+    "swarm-08124703": {
+      "deleted": 30
+    }
+  },
+  "ledger": {
+    "uniqueWorkers": 484,
+    "cap": 1500
+  }
+}

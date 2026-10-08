@@ -1,0 +1,2572 @@
+{
+  "target": "prod",
+  "base": "https://<host>",
+  "run": "2026-10-08T12-35-39",
+  "rounds": {
+    "hoard-shared-0mb": {
+      "mode": "shared",
+      "heapMb": 0,
+      "padKb": 0,
+      "step": 250,
+      "maxTotal": 5000,
+      "loadedTotal": 5000,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 0,
+      "censusRestarted": 5000,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 7988,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 31,
+            "p95": 33,
+            "max": 47
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 250,
+          "http": 200,
+          "wallMs": 8294,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 32,
+            "p95": 34,
+            "max": 64
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 500,
+          "http": 200,
+          "wallMs": 8596,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 34,
+            "p95": 36,
+            "max": 37
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 750,
+          "http": 200,
+          "wallMs": 9045,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 35,
+            "p95": 38,
+            "max": 41
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 1000,
+          "http": 200,
+          "wallMs": 9459,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 37,
+            "p95": 40,
+            "max": 85
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 1250,
+          "http": 200,
+          "wallMs": 9730,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 38,
+            "p95": 41,
+            "max": 95
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 1500,
+          "http": 200,
+          "wallMs": 10286,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 40,
+            "p95": 44,
+            "max": 135
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 1750,
+          "http": 200,
+          "wallMs": 10383,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 41,
+            "p95": 45,
+            "max": 60
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 2000,
+          "http": 200,
+          "wallMs": 10798,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 43,
+            "p95": 46,
+            "max": 73
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 2250,
+          "http": 200,
+          "wallMs": 11136,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 44,
+            "p95": 47,
+            "max": 69
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 2500,
+          "http": 200,
+          "wallMs": 11580,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 46,
+            "p95": 50,
+            "max": 62
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 2750,
+          "http": 200,
+          "wallMs": 12790,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 51,
+            "p95": 56,
+            "max": 85
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 3000,
+          "http": 200,
+          "wallMs": 13013,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 51,
+            "p95": 56,
+            "max": 83
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 3250,
+          "http": 200,
+          "wallMs": 13306,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 52,
+            "p95": 57,
+            "max": 139
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 3500,
+          "http": 200,
+          "wallMs": 13184,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 52,
+            "p95": 56,
+            "max": 113
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 3750,
+          "http": 200,
+          "wallMs": 13406,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 53,
+            "p95": 58,
+            "max": 78
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 4000,
+          "http": 200,
+          "wallMs": 14036,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 55,
+            "p95": 62,
+            "max": 108
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 4250,
+          "http": 200,
+          "wallMs": 14910,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 59,
+            "p95": 65,
+            "max": 73
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 4500,
+          "http": 200,
+          "wallMs": 15597,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 61,
+            "p95": 73,
+            "max": 115
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        },
+        {
+          "total": 4750,
+          "http": 200,
+          "wallMs": 15831,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 62,
+            "p95": 71,
+            "max": 144
+          },
+          "parentBoot": "39a90e58-a3d1-4960-b591-c6734f239905",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 264290,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 62,
+            "p95": 68,
+            "max": 107
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 294826,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 60,
+            "p95": 67,
+            "max": 112
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 326902,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 63,
+            "p95": 71,
+            "max": 112
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 357508,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 60,
+            "p95": 67,
+            "max": 147
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 388008,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 60,
+            "p95": 67,
+            "max": 149
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 418958,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 61,
+            "p95": 69,
+            "max": 97
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 449001,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 59,
+            "p95": 65,
+            "max": 111
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 479587,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 60,
+            "p95": 67,
+            "max": 97
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 511008,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 62,
+            "p95": 70,
+            "max": 199
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "39a90e58-a3d1-4960-b591-c6734f239905",
+            "ageMs": 542611,
+            "facetsRecorded": 5000,
+            "dbBytes": 393216
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 63,
+            "p95": 70,
+            "max": 87
+          },
+          "failures": []
+        }
+      ]
+    },
+    "hoard-shared-1mb": {
+      "mode": "shared",
+      "heapMb": 1,
+      "padKb": 0,
+      "step": 10,
+      "maxTotal": 400,
+      "loadedTotal": 400,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 6,
+      "censusRestarted": 394,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 418,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 18,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 10,
+          "http": 200,
+          "wallMs": 214,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 18,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 212,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 18,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 30,
+          "http": 200,
+          "wallMs": 328,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 18,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 214,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 18,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 50,
+          "http": 200,
+          "wallMs": 216,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 328,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 70,
+          "http": 200,
+          "wallMs": 219,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 242,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 90,
+          "http": 200,
+          "wallMs": 224,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 26,
+            "max": 26
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 218,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 110,
+          "http": 200,
+          "wallMs": 224,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 215,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 130,
+          "http": 200,
+          "wallMs": 333,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 222,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 150,
+          "http": 200,
+          "wallMs": 228,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 314,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 170,
+          "http": 200,
+          "wallMs": 259,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 61,
+            "max": 61
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 220,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 19,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 190,
+          "http": 200,
+          "wallMs": 242,
+          "loaded": 10,
+          "isolates": 2,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 200,
+          "http": 200,
+          "wallMs": 222,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 210,
+          "http": 200,
+          "wallMs": 229,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 22,
+            "max": 22
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 220,
+          "http": 200,
+          "wallMs": 225,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 230,
+          "http": 200,
+          "wallMs": 225,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 240,
+          "http": 200,
+          "wallMs": 218,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 250,
+          "http": 200,
+          "wallMs": 227,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 260,
+          "http": 200,
+          "wallMs": 343,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 270,
+          "http": 200,
+          "wallMs": 225,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 280,
+          "http": 200,
+          "wallMs": 224,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 290,
+          "http": 200,
+          "wallMs": 244,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 300,
+          "http": 200,
+          "wallMs": 226,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 310,
+          "http": 200,
+          "wallMs": 225,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 320,
+          "http": 200,
+          "wallMs": 231,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 330,
+          "http": 200,
+          "wallMs": 230,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 340,
+          "http": 200,
+          "wallMs": 231,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 22,
+            "max": 22
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 350,
+          "http": 200,
+          "wallMs": 234,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 20,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 360,
+          "http": 200,
+          "wallMs": 234,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 21,
+            "p95": 23,
+            "max": 23
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 370,
+          "http": 200,
+          "wallMs": 231,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 21,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 380,
+          "http": 200,
+          "wallMs": 271,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 21,
+            "p95": 21,
+            "max": 21
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        },
+        {
+          "total": 390,
+          "http": 200,
+          "wallMs": 285,
+          "loaded": 10,
+          "isolates": 2,
+          "latency": {
+            "n": 10,
+            "p50": 22,
+            "p95": 46,
+            "max": 46
+          },
+          "parentBoot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "b4ad31a6-019f-428e-ae78-2dae4540474e",
+            "ageMs": 17569,
+            "facetsRecorded": 400,
+            "dbBytes": 49152
+          },
+          "checked": 400,
+          "stillWarm": 6,
+          "restarted": 394,
+          "latency": {
+            "n": 400,
+            "p50": 20,
+            "p95": 21,
+            "max": 92
+          },
+          "failures": []
+        }
+      ]
+    },
+    "hoard-unique-0mb": {
+      "mode": "unique",
+      "heapMb": 0,
+      "padKb": 0,
+      "step": 20,
+      "maxTotal": 400,
+      "loadedTotal": 400,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 0,
+      "censusRestarted": 400,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 931,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 32,
+            "p95": 35,
+            "max": 35
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 703,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 32,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 818,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 750,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 80,
+            "max": 80
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 724,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 714,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 38,
+            "max": 38
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 794,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 86,
+            "max": 86
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 777,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 90,
+            "max": 90
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 708,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 40,
+            "max": 40
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 721,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 33,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 200,
+          "http": 200,
+          "wallMs": 750,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 45,
+            "max": 45
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 220,
+          "http": 200,
+          "wallMs": 725,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 240,
+          "http": 200,
+          "wallMs": 823,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 107,
+            "max": 107
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 260,
+          "http": 200,
+          "wallMs": 789,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 35,
+            "p95": 53,
+            "max": 53
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 280,
+          "http": 200,
+          "wallMs": 725,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 38,
+            "max": 38
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 300,
+          "http": 200,
+          "wallMs": 733,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 39,
+            "max": 39
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 320,
+          "http": 200,
+          "wallMs": 735,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 38,
+            "max": 38
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 340,
+          "http": 200,
+          "wallMs": 756,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 35,
+            "p95": 43,
+            "max": 43
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 360,
+          "http": 200,
+          "wallMs": 749,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 34,
+            "p95": 38,
+            "max": 38
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        },
+        {
+          "total": 380,
+          "http": 200,
+          "wallMs": 833,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 35,
+            "p95": 76,
+            "max": 76
+          },
+          "parentBoot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "301eecfb-b1ae-4fc3-874d-49a6f7c92c5a",
+            "ageMs": 29666,
+            "facetsRecorded": 400,
+            "dbBytes": 53248
+          },
+          "checked": 400,
+          "stillWarm": 0,
+          "restarted": 400,
+          "latency": {
+            "n": 400,
+            "p50": 34,
+            "p95": 46,
+            "max": 149
+          },
+          "failures": []
+        }
+      ]
+    },
+    "hoard-unique-8mb": {
+      "mode": "unique",
+      "heapMb": 8,
+      "padKb": 0,
+      "step": 5,
+      "maxTotal": 200,
+      "loadedTotal": 200,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 0,
+      "censusRestarted": 200,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 452,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 35,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 5,
+          "http": 200,
+          "wallMs": 268,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 38,
+            "p95": 40,
+            "max": 40
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 10,
+          "http": 200,
+          "wallMs": 246,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 37,
+            "p95": 42,
+            "max": 42
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 15,
+          "http": 200,
+          "wallMs": 251,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 37,
+            "p95": 41,
+            "max": 41
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 238,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 37,
+            "p95": 39,
+            "max": 39
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 25,
+          "http": 200,
+          "wallMs": 238,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 37,
+            "p95": 41,
+            "max": 41
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 30,
+          "http": 200,
+          "wallMs": 247,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 40,
+            "p95": 42,
+            "max": 42
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 35,
+          "http": 200,
+          "wallMs": 245,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 40,
+            "p95": 43,
+            "max": 43
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 253,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 40,
+            "p95": 42,
+            "max": 42
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 45,
+          "http": 200,
+          "wallMs": 254,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 42,
+            "p95": 46,
+            "max": 46
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 50,
+          "http": 200,
+          "wallMs": 308,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 75,
+            "max": 75
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 55,
+          "http": 200,
+          "wallMs": 377,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 53,
+            "p95": 130,
+            "max": 130
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 322,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 54,
+            "p95": 59,
+            "max": 59
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 65,
+          "http": 200,
+          "wallMs": 334,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 53,
+            "p95": 92,
+            "max": 92
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 70,
+          "http": 200,
+          "wallMs": 316,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 57,
+            "p95": 65,
+            "max": 65
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 75,
+          "http": 200,
+          "wallMs": 278,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 46,
+            "p95": 49,
+            "max": 49
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 310,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 53,
+            "p95": 58,
+            "max": 58
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 85,
+          "http": 200,
+          "wallMs": 270,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 48,
+            "max": 48
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 90,
+          "http": 200,
+          "wallMs": 263,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 45,
+            "max": 45
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 95,
+          "http": 200,
+          "wallMs": 265,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 44,
+            "p95": 50,
+            "max": 50
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 278,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 45,
+            "p95": 61,
+            "max": 61
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 105,
+          "http": 200,
+          "wallMs": 271,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 47,
+            "max": 47
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 110,
+          "http": 200,
+          "wallMs": 280,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 47,
+            "p95": 52,
+            "max": 52
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 115,
+          "http": 200,
+          "wallMs": 270,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 45,
+            "p95": 46,
+            "max": 46
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 371,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 49,
+            "max": 49
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 125,
+          "http": 200,
+          "wallMs": 278,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 45,
+            "p95": 52,
+            "max": 52
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 130,
+          "http": 200,
+          "wallMs": 298,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 53,
+            "p95": 56,
+            "max": 56
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 135,
+          "http": 200,
+          "wallMs": 769,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 115,
+            "p95": 256,
+            "max": 256
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 275,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 45,
+            "p95": 47,
+            "max": 47
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 145,
+          "http": 200,
+          "wallMs": 269,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 43,
+            "p95": 49,
+            "max": 49
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 150,
+          "http": 200,
+          "wallMs": 271,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 46,
+            "p95": 50,
+            "max": 50
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 155,
+          "http": 200,
+          "wallMs": 283,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 46,
+            "p95": 51,
+            "max": 51
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 267,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 44,
+            "p95": 49,
+            "max": 49
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 165,
+          "http": 200,
+          "wallMs": 276,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 46,
+            "p95": 49,
+            "max": 49
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 170,
+          "http": 200,
+          "wallMs": 270,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 48,
+            "p95": 50,
+            "max": 50
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 175,
+          "http": 200,
+          "wallMs": 271,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 46,
+            "p95": 51,
+            "max": 51
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 267,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 45,
+            "p95": 53,
+            "max": 53
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 185,
+          "http": 200,
+          "wallMs": 277,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 47,
+            "p95": 50,
+            "max": 50
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 190,
+          "http": 200,
+          "wallMs": 297,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 47,
+            "p95": 54,
+            "max": 54
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        },
+        {
+          "total": 195,
+          "http": 200,
+          "wallMs": 298,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 54,
+            "p95": 59,
+            "max": 59
+          },
+          "parentBoot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "bda837aa-ff50-45b1-a8e2-130fba428ffd",
+            "ageMs": 20327,
+            "facetsRecorded": 200,
+            "dbBytes": 32768
+          },
+          "checked": 200,
+          "stillWarm": 0,
+          "restarted": 200,
+          "latency": {
+            "n": 200,
+            "p50": 41,
+            "p95": 61,
+            "max": 200
+          },
+          "failures": []
+        }
+      ]
+    },
+    "swarm": {
+      "max": 10000,
+      "created": 30,
+      "verdict": "child failures at ~30: Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 3)\n    at async Lab.swarm (index.js:262:7)",
+      "steps": [
+        {
+          "total": 0,
+          "wallMs": 539,
+          "created": 30,
+          "latency": {
+            "n": 30,
+            "p50": 65,
+            "p95": 82,
+            "max": 85
+          },
+          "dbBytes": 16384,
+          "failures": [
+            {
+              "i": 33,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 3)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 34,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 4)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 35,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 5)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 36,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 6)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 37,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 7)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 38,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 8)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 39,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 9)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 32,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 3p6rucptbkfpc102kp4hquj5\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 2)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 30,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = frgapdouklovcjsfri41cdtg\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 0)\n    at async Lab.swarm (index.js:262:7)"
+            },
+            {
+              "i": 31,
+              "error": "Error: Internal error in Durable Object storage caused object to be reset; reference = 5am6p75q30fc9ib3bpo2n0io\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async one (index.js:250:19)\n    at async Promise.all (index 1)\n    at async Lab.swarm (index.js:262:7)"
+            }
+          ]
+        }
+      ]
+    },
+    "churn": {
+      "shared": {
+        "http": 200,
+        "wallMs": 572,
+        "ok": true,
+        "ms": 557,
+        "result": {
+          "parent": {
+            "boot": "d846811b-1d6a-4a74-8a69-704e188131f7",
+            "ageMs": 285,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "cycles": 200,
+          "latency": {
+            "n": 200,
+            "p50": 1,
+            "p95": 2,
+            "max": 11
+          },
+          "failures": []
+        }
+      },
+      "unique": {
+        "http": 200,
+        "wallMs": 379,
+        "ok": true,
+        "ms": 369,
+        "result": {
+          "parent": {
+            "boot": "d846811b-1d6a-4a74-8a69-704e188131f7",
+            "ageMs": 660,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "cycles": 30,
+          "latency": {
+            "n": 30,
+            "p50": 11,
+            "p95": 13,
+            "max": 13
+          },
+          "failures": []
+        }
+      }
+    },
+    "stampede": {
+      "shared-50": {
+        "http": 200,
+        "wallMs": 402,
+        "ok": true,
+        "ms": 393,
+        "result": {
+          "parent": {
+            "boot": "23fd3b00-09c4-48a8-8f47-f6b5384a0b8c",
+            "ageMs": 175,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "count": 50,
+          "ok": 50,
+          "wallMs": 23,
+          "latency": {
+            "n": 50,
+            "p50": 23,
+            "p95": 23,
+            "max": 23
+          },
+          "errors": {}
+        }
+      },
+      "shared-200": {
+        "http": 200,
+        "wallMs": 236,
+        "ok": true,
+        "ms": 225,
+        "result": {
+          "parent": {
+            "boot": "23fd3b00-09c4-48a8-8f47-f6b5384a0b8c",
+            "ageMs": 275,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "count": 200,
+          "ok": 200,
+          "wallMs": 51,
+          "latency": {
+            "n": 200,
+            "p50": 51,
+            "p95": 51,
+            "max": 51
+          },
+          "errors": {}
+        }
+      },
+      "shared-500": {
+        "http": 200,
+        "wallMs": 441,
+        "ok": true,
+        "ms": 432,
+        "result": {
+          "parent": {
+            "boot": "23fd3b00-09c4-48a8-8f47-f6b5384a0b8c",
+            "ageMs": 588,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "count": 500,
+          "ok": 500,
+          "wallMs": 179,
+          "latency": {
+            "n": 500,
+            "p50": 179,
+            "p95": 179,
+            "max": 179
+          },
+          "errors": {}
+        }
+      },
+      "unique-40": {
+        "http": 200,
+        "wallMs": 306,
+        "ok": true,
+        "ms": 296,
+        "result": {
+          "parent": {
+            "boot": "c20c83a4-6f9c-47f5-bf3d-84eea3785c4c",
+            "ageMs": 153,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          },
+          "count": 40,
+          "ok": 10,
+          "wallMs": 76,
+          "latency": {
+            "n": 10,
+            "p50": 76,
+            "p95": 76,
+            "max": 76
+          },
+          "errors": {
+            "Error: Dynamic worker concurrency limit exceeded: each request may have up to 10 concurrent dynamic worker invocations. Wait for one to finish before starting a": 30
+          }
+        }
+      }
+    },
+    "hostile": {
+      "throw": {
+        "http": 200,
+        "wallMs": 297,
+        "ok": true,
+        "ms": 286,
+        "result": {
+          "kind": "throw",
+          "elapsedMs": 14,
+          "outcome": {
+            "error": "Error: boom from child\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.hostile (index.js:295:17)"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 138,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "loop": {
+        "http": 200,
+        "wallMs": 2199,
+        "ok": true,
+        "ms": 2188,
+        "result": {
+          "kind": "loop",
+          "elapsedMs": 13,
+          "outcome": {
+            "error": "Error: Worker exceeded CPU time limit.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.hostile (index.js:295:17)"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 187,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "recurse": {
+        "http": 200,
+        "wallMs": 75,
+        "ok": true,
+        "ms": 62,
+        "result": {
+          "kind": "recurse",
+          "elapsedMs": 21,
+          "outcome": {
+            "error": "RangeError: Maximum call stack size exceeded\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.hostile (index.js:295:17)"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 1772,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "fetch": {
+        "http": 200,
+        "wallMs": 69,
+        "ok": true,
+        "ms": 58,
+        "result": {
+          "kind": "fetch",
+          "elapsedMs": 23,
+          "outcome": {
+            "error": "Error: This worker is not permitted to access the internet via global functions like fetch(). It must use capabilities (such as bindings in 'env') to talk to the outside world.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.hostile (index.js:295:17)"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 1876,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "hang": {
+        "http": 200,
+        "wallMs": 19477,
+        "ok": true,
+        "ms": 19468,
+        "result": {
+          "kind": "hang",
+          "elapsedMs": 20000,
+          "outcome": {
+            "error": "Error: timeout after 20000ms (/hostile?kind=hang)\n    at index.js:107:37"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": false,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 21965,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "bigreturn": {
+        "http": 200,
+        "wallMs": 608,
+        "ok": true,
+        "ms": 599,
+        "result": {
+          "kind": "bigreturn",
+          "elapsedMs": 24,
+          "outcome": {
+            "status": 200,
+            "bodyPreview": "{\"text\":\"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\",\"length\":104857600}"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 22044,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "storage": {
+        "http": 200,
+        "wallMs": 4025,
+        "ok": true,
+        "ms": 4016,
+        "result": {
+          "kind": "storage",
+          "elapsedMs": 4113,
+          "outcome": {
+            "status": 200,
+            "bodyPreview": "{\"wroteMb\":256,\"size\":269131776}"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 26462,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "alloc": {
+        "http": 200,
+        "wallMs": 338,
+        "ok": true,
+        "ms": 328,
+        "result": {
+          "kind": "alloc",
+          "elapsedMs": 16,
+          "outcome": {
+            "error": "Error: Worker exceeded memory limit.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.hostile (index.js:295:17)"
+          },
+          "parentSurvived": true,
+          "canaryStillWarm": true,
+          "canarySameIsolate": true,
+          "parent": {
+            "boot": "bf38ba3a-43fd-4097-9a88-5dc5ee1ddf1a",
+            "ageMs": 26601,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      }
+    },
+    "nest": {
+      "depth-1": {
+        "http": 200,
+        "wallMs": 208,
+        "ok": true,
+        "ms": 197,
+        "result": {
+          "requested": 1,
+          "result": {
+            "depth": 1,
+            "inner": {
+              "depth": 0,
+              "boot": "7ca99dfd-6c85-42c6-8b8b-da58268ccc2a",
+              "isolate": "7902e86b-e290-4104-b664-b8cdc1dc3927",
+              "calls": 1,
+              "heldMb": 0,
+              "padKb": 0
+            }
+          },
+          "parent": {
+            "boot": "e36bdcf6-e2f8-439c-902a-ba2554ddf4ac",
+            "ageMs": 59,
+            "facetsRecorded": 0,
+            "dbBytes": 16384
+          }
+        }
+      },
+      "depth-3": {
+        "http": 200,
+        "wallMs": 39,
+        "ok": true,
+        "ms": 28,
+        "result": {
+          "requested": 3,
+          "error": "Error: Facet nesting depth limit exceeded. The maximum depth including the root Durable Object is 4.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.nest (index.js:341:17)"
+        }
+      },
+      "depth-10": {
+        "http": 200,
+        "wallMs": 30,
+        "ok": true,
+        "ms": 21,
+        "result": {
+          "requested": 10,
+          "error": "Error: Facet nesting depth limit exceeded. The maximum depth including the root Durable Object is 4.\n    at async withTimeout (index.js:110:12)\n    at async Lab.call (index.js:181:17)\n    at async Lab.nest (index.js:341:17)"
+        }
+      }
+    }
+  },
+  "wiped": {
+    "hoard-shared-0mb-08123539": {
+      "deleted": 5000
+    },
+    "hoard-shared-1mb-08123539": {
+      "deleted": 400
+    },
+    "hoard-unique-0mb-08123539": {
+      "deleted": 400
+    },
+    "hoard-unique-8mb-08123539": {
+      "deleted": 200
+    },
+    "swarm-08123539": {
+      "deleted": 30
+    },
+    "churn-08123539": {
+      "deleted": 0
+    },
+    "stampede-08123539": {
+      "deleted": 0
+    },
+    "stampede-08123539-u": {
+      "deleted": 0
+    },
+    "hostile-08123539": {
+      "deleted": 0
+    },
+    "nest-08123539": {
+      "deleted": 0
+    }
+  },
+  "ledger": {
+    "uniqueWorkers": 484,
+    "cap": 1500
+  }
+}

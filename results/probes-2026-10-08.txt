@@ -1,0 +1,132 @@
+### sw4.txt
+== {"count":5,"write":false,"unload":false}
+{"ok":true,"ms":634,"result":{"parent":{"boot":"49a278b8-9f80-412c-b8e5-73fe63740652","ageMs":422,"facetsRecorded":5,"dbBytes":16384},"created":5,"latency":{"n":5,"p50":68,"p95":69,"max":69},"failures":[]}}
+
+== {"count":5,"write":false,"unload":true}
+{"ok":true,"ms":588,"result":{"parent":{"boot":"0676eda1-a21b-4e16-a606-c829a8615e27","ageMs":373,"facetsRecorded":5,"dbBytes":16384},"created":5,"latency":{"n":5,"p50":61,"p95":62,"max":62},"failures":[]}}
+
+== {"count":5,"write":true,"unload":false}
+{"ok":true,"ms":503,"result":{"parent":{"boot":"8d0b393e-0813-4fb5-bf8f-8e4e26e5dcb3","ageMs":298,"facetsRecorded":5,"dbBytes":16384},"created":5,"latency":{"n":5,"p50":53,"p95":56,"max":56},"failures":[]}}
+
+== {"count":5,"write":true,"unload":true}
+{"ok":true,"ms":475,"result":{"parent":{"boot":"40d1b53c-5d4e-45b8-abb7-37bfe34d5c19","ageMs":269,"facetsRecorded":5,"dbBytes":16384},"created":5,"latency":{"n":5,"p50":49,"p95":61,"max":61},"failures":[]}}
+
+### sw5b.txt
+== {"count":50,"concurrency":1,"write":true}
+{"ok":false,"ms":1260,"error":"Error: Internal error in Durable Object storage caused object to be reset; reference = 7u24ftn3igvl26o6pltpro7n\n    at async Object.fetch (index.js:382:22)"}
+
+== {"count":50,"concurrency":1,"write":false}
+{"ok":true,"ms":2162,"result":{"parent":{"boot":"d0fef03e-81db-4240-bc35-6a3d828c0168","ageMs":1936,"facetsRecorded":50,"dbBytes":16384},"created":50,"latency":{"n":50,"p50":37,"p95":38,"max":38},"failures":[]}}
+
+== {"count":50,"concurrency":2,"write":true}
+{"ok":false,"ms":1235,"error":"Error: Internal error in Durable Object storage caused object to be reset; reference = hltb29bici7704hfdjm1clpt\n    at async Object.fetch (index.js:382:22)"}
+
+== {"count":50,"concurrency":2,"write":false}
+{"ok":true,"ms":846,"result":{"parent":{"boot":"5937be6d-7a15-4199-930d-f0bbe5aaac1b","ageMs":701,"facetsRecorded":50,"dbBytes":16384},"created":50,"latency":{"n":50,"p50":26,"p95":28,"max":28},"failures":[]}}
+
+== {"count":50,"concurrency":5,"write":true}
+{"ok":false,"ms":563,"error":"Error: Internal error in Durable Object storage caused object to be reset; reference = 2levnrsnslekvtleno5s4e4i\n    at async Object.fetch (index.js:382:22)"}
+
+== {"count":50,"concurrency":5,"write":false}
+{"ok":true,"ms":531,"result":{"parent":{"boot":"2a6f78ae-4462-4d01-b364-c0fd64cfe17b","ageMs":307,"facetsRecorded":50,"dbBytes":16384},"created":50,"latency":{"n":50,"p50":28,"p95":29,"max":29},"failures":[]}}
+
+== {"count":50,"concurrency":10,"write":true}
+{"ok":true,"ms":701,"result":{"parent":{"boot":"6a8898fe-4dfa-4f72-bb54-9b5d417c9fb0","ageMs":463,"facetsRecorded":20,"dbBytes":16384},"created":20,"latency":{"n":20,"p50":118,"p95":160,"max":160},"failures":[{"i":23,"error":"Error: Internal error in Durable O
+
+== {"count":50,"concurrency":10,"write":false}
+{"ok":true,"ms":634,"result":{"parent":{"boot":"39a77bd5-353b-4c83-97b0-22fd8403d100","ageMs":313,"facetsRecorded":50,"dbBytes":16384},"created":50,"latency":{"n":50,"p50":48,"p95":63,"max":63},"failures":[]}}
+
+### sw6b.txt
+true 0 {"ok":true,"ms":225,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":68,"facetsRecorded":1,"dbBytes":16384},"create
+
+true 1 {"ok":true,"ms":61,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":188,"facetsRecorded":2,"dbBytes":16384},"create
+
+true 2 {"ok":true,"ms":52,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":290,"facetsRecorded":3,"dbBytes":16384},"create
+
+true 3 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":386,"facetsRecorded":4,"dbBytes":16384},"create
+
+true 4 {"ok":true,"ms":52,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":487,"facetsRecorded":5,"dbBytes":16384},"create
+
+true 5 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":589,"facetsRecorded":6,"dbBytes":16384},"create
+
+true 6 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":688,"facetsRecorded":7,"dbBytes":16384},"create
+
+true 7 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":790,"facetsRecorded":8,"dbBytes":16384},"create
+
+true 8 {"ok":true,"ms":54,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":896,"facetsRecorded":9,"dbBytes":16384},"create
+
+true 9 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":992,"facetsRecorded":10,"dbBytes":16384},"creat
+
+true 10 {"ok":true,"ms":51,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":1091,"facetsRecorded":11,"dbBytes":16384},"crea
+
+true 11 {"ok":true,"ms":51,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":1193,"facetsRecorded":12,"dbBytes":16384},"crea
+
+true 12 {"ok":true,"ms":50,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":1294,"facetsRecorded":13,"dbBytes":16384},"crea
+
+true 13 {"ok":true,"ms":49,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":1396,"facetsRecorded":14,"dbBytes":16384},"crea
+
+true 14 {"ok":true,"ms":48,"result":{"parent":{"boot":"052bf27f-fa61-4968-9175-ccd416446e39","ageMs":1496,"facetsRecorded":15,"dbBytes":16384},"crea
+
+false 0 {"ok":true,"ms":264,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":59,"facetsRecorded":1,"dbBytes":16384},"create
+
+false 1 {"ok":true,"ms":61,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":171,"facetsRecorded":2,"dbBytes":16384},"create
+
+false 2 {"ok":true,"ms":63,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":280,"facetsRecorded":3,"dbBytes":16384},"create
+
+false 3 {"ok":true,"ms":63,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":396,"facetsRecorded":4,"dbBytes":16384},"create
+
+false 4 {"ok":true,"ms":60,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":513,"facetsRecorded":5,"dbBytes":16384},"create
+
+false 5 {"ok":true,"ms":60,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":622,"facetsRecorded":6,"dbBytes":16384},"create
+
+false 6 {"ok":true,"ms":58,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":728,"facetsRecorded":7,"dbBytes":16384},"create
+
+false 7 {"ok":true,"ms":62,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":841,"facetsRecorded":8,"dbBytes":16384},"create
+
+false 8 {"ok":true,"ms":60,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":953,"facetsRecorded":9,"dbBytes":16384},"create
+
+false 9 {"ok":true,"ms":58,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1062,"facetsRecorded":10,"dbBytes":16384},"crea
+
+false 10 {"ok":true,"ms":61,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1177,"facetsRecorded":11,"dbBytes":16384},"crea
+
+false 11 {"ok":true,"ms":60,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1287,"facetsRecorded":12,"dbBytes":16384},"crea
+
+false 12 {"ok":true,"ms":63,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1401,"facetsRecorded":13,"dbBytes":16384},"crea
+
+false 13 {"ok":true,"ms":61,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1514,"facetsRecorded":14,"dbBytes":16384},"crea
+
+false 14 {"ok":true,"ms":61,"result":{"parent":{"boot":"ef55e13e-3c00-40ea-a845-993c270da6ea","ageMs":1620,"facetsRecorded":15,"dbBytes":16384},"crea
+
+### sw7b.txt
+n=5 rep=1 "ok":true "created":5 
+n=5 rep=2 "ok":true "created":5 
+n=6 rep=1 "ok":true "created":6 
+n=6 rep=2 "ok":true "created":6 
+n=7 rep=1 "ok":true "created":7 
+n=7 rep=2 "ok":true "created":7 
+n=8 rep=1 "ok":true "created":8 
+n=8 rep=2 "ok":true "created":8 
+n=10 rep=1 "ok":true "created":10 
+n=10 rep=2 "ok":true "created":10 
+n=12 rep=1 "ok":true "created":12 
+n=12 rep=2 "ok":true "created":12 
+n=16 rep=1 "ok":true "created":16 
+n=16 rep=2 "ok":true "created":16 
+n=20 rep=1 "ok":false Internal error in Durable Object storage caused object to be reset 
+n=20 rep=2 "ok":false Internal error in Durable Object storage caused object to be reset 
+### sw8.txt
+n=17 rep=1 "ok":true "created":17 
+n=17 rep=2 "ok":true "created":17 
+n=18 rep=1 "ok":false Internal error in Durable Object storage caused object to be reset 
+n=18 rep=2 "ok":false Internal error in Durable Object storage caused object to be reset 
+n=19 rep=1 "ok":false Internal error in Durable Object storage caused object to be reset 
+n=19 rep=2 "ok":false Internal error in Durable Object storage caused object to be reset 
+noUnload n=16 "ok":true "created":16 
+noUnload n=17 "ok":true "created":17 
+### sw9.txt
+noUnload n=16 "ok":true "created":16 
+noUnload n=17 "ok":true "created":17 
+fail at 17
+fail at 27
+one-per-request ok=28/30
+"created":10 Internal error in Durable Object storage caused object to be reset Internal error in Durable Object storage caused object to be reset Internal error in Durable Object storage caused object to be reset 

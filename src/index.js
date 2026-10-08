@@ -136,7 +136,7 @@ export class Lab extends DurableObject {
   }
 
   // Create many facets that each write one row and then get unloaded.
-  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000 }) {
+  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, unload = true, write = true }) {
     count = Math.min(count, LIMITS.batch);
     if (this.facetCount() + count > LIMITS.facetsPerLab) throw new Error("facetsPerLab cap");
     await this.reserve(["swarm"]);
@@ -145,11 +145,11 @@ export class Lab extends DurableObject {
     const one = async (i) => {
       const name = `w${i}`;
       try {
-        const r = await this.call(this.facet(name, "swarm", {}), `/write?bytes=${bytes}`, timeoutMs);
+        const r = await this.call(this.facet(name, "swarm", {}), write ? `/write?bytes=${bytes}` : "/ping", timeoutMs);
         if (r.status !== 200) throw new Error(`status ${r.status}`);
         ms.push(r.ms);
         this.record(name, r.body.boot, "swarm");
-        this.ctx.facets.abort(name, new Error("swarm: unload"));
+        if (unload) this.ctx.facets.abort(name, new Error("swarm: unload"));
       } catch (e) { failures.push({ i, error: errText(e) }); }
     };
     for (let i = start; i < start + count; i += concurrency) {
