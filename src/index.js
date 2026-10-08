@@ -136,8 +136,9 @@ export class Lab extends DurableObject {
   }
 
   // Create many facets that each write one row and then get unloaded.
-  // write / record / unload can each be switched off. With all three on, the 18th child
-  // resets this parent (see repro/README.md); switching off any one of them avoids it.
+  // With write and unload on, this parent gets reset after ~18-32 children: abort() on a facet
+  // that wrote storage is the trigger, and the parent's own record() lowers the threshold.
+  // See repro/README.md. write / record / unload can each be switched off to compare.
   async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, write = true, record = true, unload = true }) {
     count = Math.min(count, LIMITS.batch);
     if (this.facetCount() + count > LIMITS.facetsPerLab) throw new Error("facetsPerLab cap");

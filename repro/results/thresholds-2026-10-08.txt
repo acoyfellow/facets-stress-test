@@ -1,0 +1,35 @@
+# Production, 2026-10-08, account workers.dev, compatibility_date 2026-09-04.
+# "ok=K" = facets that succeeded before the first error. Errors are all
+# "Internal error in Durable Object storage caused object to be reset; reference = ...".
+# Each line is one request to a fresh supervisor unless it says "same parent".
+
+## n=100, every facet unloaded with ctx.facets.abort() right after use
+store=none&parent=write&abort=1    n=100: ok=100
+store=kv&parent=write&abort=1      n=100: ok=21   (fails on the 22nd)
+store=sql&parent=write&abort=1     n=100: ok=21
+store=size&parent=write&abort=1    n=100: ok=21
+store=pk&parent=write&abort=1      n=30:  ok=21   (dynamic and static, same)
+store=auto&parent=write&abort=1    n=18:  reset   (supervisor itself reset, 3 of 3; n=17 ok)
+store=kv&abort=1                   n=100: ok=31   (fails on the 32nd)
+store=sql&abort=1                  n=100: ok=31   (dynamic and static, same)
+store=auto&abort=1                 n=100: ok=25
+
+## n=100, no abort (children left for the runtime to unload)
+store=sql&parent=write             n=100: ok=100
+
+## n=100, ctx.facets.delete() instead of abort()
+store=sql&abort=delete             n=100: ok=100
+store=sql&parent=write&abort=delete n=100: ok=100
+store=sql&abort=1 (control, same deploy) n=100: ok=31
+
+## Running total per parent: same parent, 10 new facets per request (store=sql&abort=1)
+req 1 start=0    ok=10
+req 2 start=10   ok=10
+req 3 start=20   ok=10
+req 4 start=30   ok=1   (fails on facet #32 overall)
+
+## After the reset, same parent keeps going (store=sql&abort=1)
+n=40 start=0     ok=31  (reset)
+req 1 start=100  ok=10
+req 2 start=200  ok=6   (reset again, 17th facet since the first reset)
+req 3 start=300  ok=10
