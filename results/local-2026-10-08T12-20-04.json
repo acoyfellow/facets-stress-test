@@ -1,0 +1,1957 @@
+{
+  "target": "local",
+  "base": "http://<host>",
+  "run": "2026-10-08T12-20-04",
+  "rounds": {
+    "hoard-shared-0mb": {
+      "mode": "shared",
+      "heapMb": 0,
+      "padKb": 0,
+      "step": 250,
+      "maxTotal": 5000,
+      "loadedTotal": 4250,
+      "verdict": "request failed at 4250 children: non-JSON 500: Error: Network connection lost.\n    at async Object.fetch (file:///home/user/unhinged/node_modules/miniflare/dist/src/workers/core/entry.worker.js:5333:22)",
+      "censusWarm": 0,
+      "censusRestarted": 2000,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 1101,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 4,
+            "p95": 5,
+            "max": 25
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 250,
+          "http": 200,
+          "wallMs": 1117,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 4,
+            "p95": 6,
+            "max": 16
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 500,
+          "http": 200,
+          "wallMs": 1132,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 4,
+            "p95": 6,
+            "max": 35
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 750,
+          "http": 200,
+          "wallMs": 1085,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 4,
+            "p95": 5,
+            "max": 8
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 1000,
+          "http": 200,
+          "wallMs": 1332,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 8,
+            "max": 12
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 1250,
+          "http": 200,
+          "wallMs": 1328,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 7,
+            "max": 23
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 1500,
+          "http": 200,
+          "wallMs": 1248,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 7,
+            "max": 15
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 1750,
+          "http": 200,
+          "wallMs": 1306,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 8,
+            "max": 10
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 2000,
+          "http": 200,
+          "wallMs": 1387,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 8,
+            "max": 19
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 2250,
+          "http": 200,
+          "wallMs": 1461,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 5,
+            "p95": 8,
+            "max": 10
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 2500,
+          "http": 200,
+          "wallMs": 2587,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 6,
+            "p95": 10,
+            "max": 19
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 2750,
+          "http": 200,
+          "wallMs": 1700,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 6,
+            "p95": 9,
+            "max": 13
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 3000,
+          "http": 200,
+          "wallMs": 2627,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 7,
+            "p95": 10,
+            "max": 18
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 3250,
+          "http": 200,
+          "wallMs": 1886,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 7,
+            "p95": 10,
+            "max": 13
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 3500,
+          "http": 200,
+          "wallMs": 2449,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 8,
+            "p95": 12,
+            "max": 17
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 3750,
+          "http": 200,
+          "wallMs": 2594,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 8,
+            "p95": 11,
+            "max": 27
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 4000,
+          "http": 200,
+          "wallMs": 2352,
+          "loaded": 250,
+          "isolates": 1,
+          "latency": {
+            "n": 250,
+            "p50": 9,
+            "p95": 13,
+            "max": 25
+          },
+          "parentBoot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+          "failures": []
+        },
+        {
+          "total": 4250,
+          "http": 500,
+          "wallMs": 459,
+          "error": "non-JSON 500: Error: Network connection lost.\n    at async Object.fetch (file:///home/user/unhinged/node_modules/miniflare/dist/src/workers/core/entry.worker.js:5333:22)"
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+            "ageMs": 31476,
+            "facetsRecorded": 4250,
+            "dbBytes": 335872
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 4,
+            "p95": 7,
+            "max": 11
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+            "ageMs": 33811,
+            "facetsRecorded": 4250,
+            "dbBytes": 335872
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 4,
+            "p95": 6,
+            "max": 11
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+            "ageMs": 36724,
+            "facetsRecorded": 4250,
+            "dbBytes": 335872
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 5,
+            "p95": 8,
+            "max": 14
+          },
+          "failures": []
+        },
+        {
+          "parent": {
+            "boot": "612e5312-71a9-4b15-85c5-0b80c61ff06a",
+            "ageMs": 39110,
+            "facetsRecorded": 4250,
+            "dbBytes": 335872
+          },
+          "checked": 500,
+          "stillWarm": 0,
+          "restarted": 500,
+          "latency": {
+            "n": 500,
+            "p50": 4,
+            "p95": 7,
+            "max": 12
+          },
+          "failures": []
+        },
+        {
+          "error": "non-JSON 500: Error: Network connection lost.\n    at async Object.fetch (file:///home/user/unhinged/node_modules/miniflare/dist/src/workers/core/entry.worker.js:5333:22)"
+        }
+      ]
+    },
+    "hoard-shared-1mb": {
+      "mode": "shared",
+      "heapMb": 1,
+      "padKb": 0,
+      "step": 10,
+      "maxTotal": 400,
+      "loadedTotal": 400,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 400,
+      "censusRestarted": 0,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 1086,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 10,
+          "http": 200,
+          "wallMs": 114,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 15,
+            "max": 15
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 115,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 10,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 30,
+          "http": 200,
+          "wallMs": 132,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 136,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 13,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 50,
+          "http": 200,
+          "wallMs": 122,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 13,
+            "max": 13
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 143,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 22,
+            "max": 22
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 70,
+          "http": 200,
+          "wallMs": 127,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 13,
+            "max": 13
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 128,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 17,
+            "max": 17
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 90,
+          "http": 200,
+          "wallMs": 120,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 132,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 110,
+          "http": 200,
+          "wallMs": 133,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 13,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 156,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 15,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 130,
+          "http": 200,
+          "wallMs": 139,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 139,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 13,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 150,
+          "http": 200,
+          "wallMs": 136,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 151,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 14,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 170,
+          "http": 200,
+          "wallMs": 128,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 144,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 13,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 190,
+          "http": 200,
+          "wallMs": 125,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 14,
+            "max": 14
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 200,
+          "http": 200,
+          "wallMs": 130,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 210,
+          "http": 200,
+          "wallMs": 132,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 220,
+          "http": 200,
+          "wallMs": 137,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 15,
+            "max": 15
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 230,
+          "http": 200,
+          "wallMs": 135,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 15,
+            "max": 15
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 240,
+          "http": 200,
+          "wallMs": 138,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 14,
+            "p95": 15,
+            "max": 15
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 250,
+          "http": 200,
+          "wallMs": 130,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 260,
+          "http": 200,
+          "wallMs": 127,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 14,
+            "max": 14
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 270,
+          "http": 200,
+          "wallMs": 890,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 8,
+            "p95": 9,
+            "max": 9
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 280,
+          "http": 200,
+          "wallMs": 114,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 14,
+            "max": 14
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 290,
+          "http": 200,
+          "wallMs": 134,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 300,
+          "http": 200,
+          "wallMs": 138,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 310,
+          "http": 200,
+          "wallMs": 117,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 12,
+            "max": 12
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 320,
+          "http": 200,
+          "wallMs": 137,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 330,
+          "http": 200,
+          "wallMs": 153,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 14,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 340,
+          "http": 200,
+          "wallMs": 137,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 19,
+            "max": 19
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 350,
+          "http": 200,
+          "wallMs": 135,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 360,
+          "http": 200,
+          "wallMs": 129,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 18,
+            "max": 18
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 370,
+          "http": 200,
+          "wallMs": 127,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 380,
+          "http": 200,
+          "wallMs": 121,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 11,
+            "p95": 16,
+            "max": 16
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        },
+        {
+          "total": 390,
+          "http": 200,
+          "wallMs": 136,
+          "loaded": 10,
+          "isolates": 1,
+          "latency": {
+            "n": 10,
+            "p50": 12,
+            "p95": 17,
+            "max": 17
+          },
+          "parentBoot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "e62f1afe-f2b6-4ad7-8e2d-475ff28530ea",
+            "ageMs": 6263,
+            "facetsRecorded": 400,
+            "dbBytes": 49152
+          },
+          "checked": 400,
+          "stillWarm": 400,
+          "restarted": 0,
+          "latency": {
+            "n": 400,
+            "p50": 0,
+            "p95": 1,
+            "max": 50
+          },
+          "failures": []
+        }
+      ]
+    },
+    "hoard-unique-0mb": {
+      "mode": "unique",
+      "heapMb": 0,
+      "padKb": 0,
+      "step": 20,
+      "maxTotal": 400,
+      "loadedTotal": 400,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 400,
+      "censusRestarted": 0,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 380,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 16,
+            "p95": 27,
+            "max": 27
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 357,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 17,
+            "p95": 23,
+            "max": 23
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 368,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 17,
+            "p95": 27,
+            "max": 27
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 344,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 17,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 332,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 16,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 343,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 16,
+            "p95": 22,
+            "max": 22
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 346,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 17,
+            "p95": 20,
+            "max": 20
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 409,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 20,
+            "p95": 26,
+            "max": 26
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 394,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 18,
+            "p95": 27,
+            "max": 27
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 391,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 18,
+            "p95": 24,
+            "max": 24
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 200,
+          "http": 200,
+          "wallMs": 403,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 19,
+            "p95": 25,
+            "max": 25
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 220,
+          "http": 200,
+          "wallMs": 402,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 20,
+            "p95": 23,
+            "max": 23
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 240,
+          "http": 200,
+          "wallMs": 402,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 19,
+            "p95": 26,
+            "max": 26
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 260,
+          "http": 200,
+          "wallMs": 400,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 19,
+            "p95": 24,
+            "max": 24
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 280,
+          "http": 200,
+          "wallMs": 417,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 20,
+            "p95": 26,
+            "max": 26
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 300,
+          "http": 200,
+          "wallMs": 386,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 18,
+            "p95": 23,
+            "max": 23
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 320,
+          "http": 200,
+          "wallMs": 371,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 17,
+            "p95": 27,
+            "max": 27
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 340,
+          "http": 200,
+          "wallMs": 418,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 20,
+            "p95": 24,
+            "max": 24
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 360,
+          "http": 200,
+          "wallMs": 498,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 24,
+            "p95": 42,
+            "max": 42
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        },
+        {
+          "total": 380,
+          "http": 200,
+          "wallMs": 444,
+          "loaded": 20,
+          "isolates": 20,
+          "latency": {
+            "n": 20,
+            "p50": 21,
+            "p95": 29,
+            "max": 29
+          },
+          "parentBoot": "d2be30f7-1262-4354-941e-012c038056a6",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "d2be30f7-1262-4354-941e-012c038056a6",
+            "ageMs": 7950,
+            "facetsRecorded": 400,
+            "dbBytes": 53248
+          },
+          "checked": 400,
+          "stillWarm": 400,
+          "restarted": 0,
+          "latency": {
+            "n": 400,
+            "p50": 0,
+            "p95": 1,
+            "max": 2
+          },
+          "failures": []
+        }
+      ]
+    },
+    "hoard-unique-8mb": {
+      "mode": "unique",
+      "heapMb": 8,
+      "padKb": 0,
+      "step": 5,
+      "maxTotal": 200,
+      "loadedTotal": 200,
+      "verdict": "reached cap without breaking",
+      "censusWarm": 200,
+      "censusRestarted": 0,
+      "steps": [
+        {
+          "total": 0,
+          "http": 200,
+          "wallMs": 181,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 5,
+          "http": 200,
+          "wallMs": 157,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 30,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 10,
+          "http": 200,
+          "wallMs": 163,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 30,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 15,
+          "http": 200,
+          "wallMs": 162,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 31,
+            "p95": 33,
+            "max": 33
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 20,
+          "http": 200,
+          "wallMs": 168,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 34,
+            "p95": 35,
+            "max": 35
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 25,
+          "http": 200,
+          "wallMs": 165,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 31,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 30,
+          "http": 200,
+          "wallMs": 155,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 35,
+            "max": 35
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 35,
+          "http": 200,
+          "wallMs": 156,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 40,
+          "http": 200,
+          "wallMs": 152,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 45,
+          "http": 200,
+          "wallMs": 155,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 50,
+          "http": 200,
+          "wallMs": 152,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 30,
+            "max": 30
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 55,
+          "http": 200,
+          "wallMs": 152,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 60,
+          "http": 200,
+          "wallMs": 471,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 24,
+            "p95": 29,
+            "max": 29
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 65,
+          "http": 200,
+          "wallMs": 148,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 27,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 70,
+          "http": 200,
+          "wallMs": 148,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 27,
+            "p95": 33,
+            "max": 33
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 75,
+          "http": 200,
+          "wallMs": 158,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 30,
+            "p95": 33,
+            "max": 33
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 80,
+          "http": 200,
+          "wallMs": 161,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 30,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 85,
+          "http": 200,
+          "wallMs": 165,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 30,
+            "max": 30
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 90,
+          "http": 200,
+          "wallMs": 171,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 33,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 95,
+          "http": 200,
+          "wallMs": 162,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 31,
+            "p95": 33,
+            "max": 33
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 100,
+          "http": 200,
+          "wallMs": 159,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 31,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 105,
+          "http": 200,
+          "wallMs": 146,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 26,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 110,
+          "http": 200,
+          "wallMs": 162,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 30,
+            "p95": 35,
+            "max": 35
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 115,
+          "http": 200,
+          "wallMs": 153,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 30,
+            "max": 30
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 120,
+          "http": 200,
+          "wallMs": 169,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 32,
+            "p95": 35,
+            "max": 35
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 125,
+          "http": 200,
+          "wallMs": 168,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 32,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 130,
+          "http": 200,
+          "wallMs": 153,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 135,
+          "http": 200,
+          "wallMs": 144,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 27,
+            "p95": 30,
+            "max": 30
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 140,
+          "http": 200,
+          "wallMs": 151,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 145,
+          "http": 200,
+          "wallMs": 156,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 150,
+          "http": 200,
+          "wallMs": 161,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 31,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 155,
+          "http": 200,
+          "wallMs": 167,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 32,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 160,
+          "http": 200,
+          "wallMs": 169,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 32,
+            "p95": 37,
+            "max": 37
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 165,
+          "http": 200,
+          "wallMs": 153,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 32,
+            "max": 32
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 170,
+          "http": 200,
+          "wallMs": 151,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 30,
+            "max": 30
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 175,
+          "http": 200,
+          "wallMs": 151,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 28,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 180,
+          "http": 200,
+          "wallMs": 151,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 185,
+          "http": 200,
+          "wallMs": 149,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 27,
+            "p95": 34,
+            "max": 34
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 190,
+          "http": 200,
+          "wallMs": 152,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 29,
+            "p95": 31,
+            "max": 31
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        },
+        {
+          "total": 195,
+          "http": 200,
+          "wallMs": 144,
+          "loaded": 5,
+          "isolates": 5,
+          "latency": {
+            "n": 5,
+            "p50": 27,
+            "p95": 29,
+            "max": 29
+          },
+          "parentBoot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+          "failures": []
+        }
+      ],
+      "census": [
+        {
+          "parent": {
+            "boot": "c3a5efe3-fad3-4023-99af-56b6735e43ec",
+            "ageMs": 6688,
+            "facetsRecorded": 200,
+            "dbBytes": 32768
+          },
+          "checked": 200,
+          "stillWarm": 200,
+          "restarted": 0,
+          "latency": {
+            "n": 200,
+            "p50": 0,
+            "p95": 1,
+            "max": 3
+          },
+          "failures": []
+        }
+      ]
+    }
+  }
+}

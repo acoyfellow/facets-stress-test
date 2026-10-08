@@ -50,13 +50,18 @@ async function hoardRamp(key, { mode, heapMb, step, maxTotal, padKb = 0 }) {
   return lab;
 }
 
+// Local workerd doesn't enforce production memory limits, so local runs are scaled
+// down (SCALE=0.1) and skip the memory bomb, which would just eat the host's RAM.
+const SCALE = Number(process.env.SCALE || 1);
+const LOCAL = target === "local";
+const scaled = (n) => Math.max(1, Math.round(n * SCALE));
 const labsToWipe = [];
 const rounds = {
   async hoard() {
-    labsToWipe.push(await hoardRamp("hoard-shared-0mb", { mode: "shared", heapMb: 0, step: 250, maxTotal: 5000 }));
-    labsToWipe.push(await hoardRamp("hoard-shared-1mb", { mode: "shared", heapMb: 1, step: 10, maxTotal: 400 }));
-    labsToWipe.push(await hoardRamp("hoard-unique-0mb", { mode: "unique", heapMb: 0, step: 20, maxTotal: 400 }));
-    labsToWipe.push(await hoardRamp("hoard-unique-8mb", { mode: "unique", heapMb: 8, step: 5, maxTotal: 200 }));
+    labsToWipe.push(await hoardRamp("hoard-shared-0mb", { mode: "shared", heapMb: 0, step: 250, maxTotal: scaled(5000) }));
+    labsToWipe.push(await hoardRamp("hoard-shared-1mb", { mode: "shared", heapMb: 1, step: 10, maxTotal: scaled(400) }));
+    labsToWipe.push(await hoardRamp("hoard-unique-0mb", { mode: "unique", heapMb: 0, step: 20, maxTotal: scaled(400) }));
+    labsToWipe.push(await hoardRamp("hoard-unique-8mb", { mode: "unique", heapMb: 8, step: 5, maxTotal: scaled(200) }));
   },
   async swarm() {
     const lab = `swarm-${tag}`; labsToWipe.push(lab);
@@ -93,7 +98,9 @@ const rounds = {
   async hostile() {
     const lab = `hostile-${tag}`; labsToWipe.push(lab);
     const r = {};
-    for (const [kind, mb] of [["throw"], ["loop"], ["recurse"], ["fetch"], ["hang"], ["bigreturn", 100], ["storage", 256], ["alloc"]]) {
+    const kinds = [["throw"], ["loop"], ["recurse"], ["fetch"], ["hang"], ["bigreturn", LOCAL ? 20 : 100], ["storage", LOCAL ? 16 : 256]];
+    if (!LOCAL) kinds.push(["alloc"]);
+    for (const [kind, mb] of kinds) {
       r[kind] = await op(lab, "hostile", { kind, mb });
       const x = r[kind].result;
       log("hostile", kind, x ? `parentSurvived=${x.parentSurvived} canaryWarm=${x.canaryStillWarm} ${x.elapsedMs}ms ${JSON.stringify(x.outcome).slice(0, 140)}` : r[kind].error);
