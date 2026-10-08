@@ -10,6 +10,7 @@ import { DurableObject } from "cloudflare:workers";
 //   kv    storage.kv.put
 //   sql   plain table + insert
 //   auto  AUTOINCREMENT table + insert
+//   pk    INTEGER PRIMARY KEY (no AUTOINCREMENT) table + insert
 //   size  plain insert, then read storage.sql.databaseSize
 //   none  doesn't touch storage
 function useStorage(ctx, store) {
@@ -21,6 +22,10 @@ function useStorage(ctx, store) {
   }
   if (store === "auto") {
     sql.exec("CREATE TABLE IF NOT EXISTS t (k INTEGER PRIMARY KEY AUTOINCREMENT, v TEXT NOT NULL)");
+    sql.exec("INSERT INTO t (v) VALUES (?)", "y");
+  }
+  if (store === "pk") {
+    sql.exec("CREATE TABLE IF NOT EXISTS t (k INTEGER PRIMARY KEY, v TEXT NOT NULL)");
     sql.exec("INSERT INTO t (v) VALUES (?)", "y");
   }
   if (store === "size") return String(sql.databaseSize);
@@ -59,7 +64,7 @@ export class Supervisor extends DurableObject {
       const facet = this.ctx.facets.get(`app-${i}`, async () => ({
         class: code === "static"
           ? this.ctx.exports.StaticApp
-          : this.env.LOADER.get("repro-child-v2", async () => ({
+          : this.env.LOADER.get("repro-child-v3", async () => ({
               compatibilityDate: "2026-09-04",
               mainModule: "child.js",
               modules: { "child.js": CHILD_CODE },

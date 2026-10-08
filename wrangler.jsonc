@@ -1,5 +1,5 @@
 {
-  "name": "unhinged-facets",
+  "name": "facets-stress-test",
   "main": "src/index.js",
   "compatibility_date": "2026-09-04",
   "workers_dev": true,
@@ -12,7 +12,8 @@
     ]
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Lab", "Ledger"] }],
-  // Dead-man switch: every request after this time gets 410. Set at deploy time.
-  "vars": { "EXPIRES": "2026-10-10T00:00:00Z" },
+  // Optional dead-man switch: after this ISO time every request gets 410.
+  // Set it when you deploy, e.g. --var EXPIRES:2026-12-01T00:00:00Z. Empty = no expiry.
+  "vars": { "EXPIRES": "" },
   "observability": { "enabled": true }
 }

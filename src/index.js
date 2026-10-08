@@ -136,18 +136,18 @@ export class Lab extends DurableObject {
   }
 
   // Create many facets that each write one row and then get unloaded.
-  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, unload = true, write = true, reserve = true, record = true, wrap = true }) {
+  // write / record / unload can each be switched off. With all three on, the 18th child
+  // resets this parent (see repro/README.md); switching off any one of them avoids it.
+  async swarm({ start = 0, count = 200, bytes = 64, concurrency = 1, timeoutMs = 10_000, write = true, record = true, unload = true }) {
     count = Math.min(count, LIMITS.batch);
     if (this.facetCount() + count > LIMITS.facetsPerLab) throw new Error("facetsPerLab cap");
-    if (reserve) await this.reserve(["swarm"]);
+    await this.reserve(["swarm"]);
     const ms = [];
     const failures = [];
     const one = async (i) => {
       const name = `w${i}`;
       try {
-        const stub = this.facet(name, "swarm", {});
-        const path = write ? `/write?bytes=${bytes}` : "/ping";
-        const r = wrap ? await this.call(stub, path, timeoutMs) : await (async () => { const res = await stub.fetch("https://child" + path); return { ms: 0, status: res.status, body: await res.json() }; })();
+        const r = await this.call(this.facet(name, "swarm", {}), write ? `/write?bytes=${bytes}` : "/ping", timeoutMs);
         if (r.status !== 200) throw new Error(`status ${r.status}`);
         ms.push(r.ms);
         if (record) this.record(name, r.body.boot, "swarm");
